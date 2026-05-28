@@ -1,0 +1,60 @@
+---
+File: DEP-11
+Version: '1.0'
+---
+Type: desktop-application
+ID: com.github.aninsomniacy.motrix-next
+ProjectLicense: MIT
+Name:
+  C: Motrix Next
+  zh_CN: Motrix Next
+Summary:
+  C: Lightweight cross-platform download manager
+  zh_CN: 轻量级跨平台下载管理器
+Description:
+  C: >-
+    <p>
+          Motrix Next is a free, open-source, cross-platform download manager that supports
+          HTTP, FTP, BitTorrent, Magnet links, and Thunder links. Built on Tauri 2 + Rust +
+          Vue 3, it replaces the original Motrix (Electron + Vue 2) with a drastically smaller
+          package (~20 MB vs ~80 MB), faster startup, and lower memory usage. It features
+          concurrent downloads (up to 10 tasks), global and per-task speed limits, system tray
+          integration, dark mode, browser extension support, and automatic tracker syncing.
+        </p>
+  zh_CN: >-
+    <p>
+          Motrix Next 是一款免费、开源、跨平台的下载管理器，支持 HTTP、FTP、BitTorrent、磁力链接
+          和迅雷链接。基于 Tauri 2 + Rust + Vue 3 构建，替代原版 Motrix（Electron + Vue 2），
+          安装包体积从约 80 MB 缩减至约 20 MB，启动更快，内存占用更低。支持并发下载（最多 10 个任务）、
+          全局与单任务限速、系统托盘集成、深色模式、浏览器扩展以及自动 Tracker 同步。
+        </p>
+ProjectGroup: Motrix Next
+Developer:
+  id: com.github.aninsomniacy
+  name:
+    C: AnInsomniacy
+Categories:
+- Network
+Url:
+  homepage: https://motrix-next.pages.dev
+  bugtracker: https://github.com/AnInsomniacy/motrix-next/issues
+Icon:
+  stock: motrix-next
+Launchable:
+  desktop-id:
+  - motrix-next.desktop
+Provides:
+  binaries:
+  - motrix-next
+Screenshots:
+- default: true
+  caption:
+    C: Main download task list
+  thumbnails: []
+  source-image:
+    url: https://github.com/AnInsomniacy/motrix-next/raw/main/docs/media/screenshot-light.png
+ContentRating:
+  oars-1.1:
+    social-chat: mild
+Custom:
+  x-appstream-package: motrix-next

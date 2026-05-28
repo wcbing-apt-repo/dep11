@@ -1,0 +1,61 @@
+Type: desktop-application
+ID: com.github.boxplayer
+ProjectLicense: GPLv3
+Package: boxplayer
+Name:
+  C: BoxPlayer
+  zh_CN: 小白羊播放器
+Summary:
+  C: Multi-cloud aggregated media player
+  zh_CN: 多网盘聚合媒体播放器
+Description:
+  C: >-
+    <p>
+          BoxPlayer is a free, open-source, cross-platform multi-cloud aggregated video player.
+          It supports Aliyun Drive, Baidu Netdisk, 123 Cloud, 115 Cloud, PikPak, OneDrive,
+          Google Drive, Dropbox, Box, WebDAV, as well as local folders and Emby/Jellyfin/Plex
+          media servers. With TMDB metadata scraping and a poster wall interface, BoxPlayer
+          provides a unified media library for movies, TV series, and anime.
+        </p>
+  zh_CN: >-
+    <p>
+          BoxPlayer 是一款免费、开源、跨平台的多网盘聚合视频播放器。支持阿里云盘、百度网盘、
+          123 网盘、115 网盘、PikPak、OneDrive、Google Drive、Dropbox、Box、WebDAV 等多种云存储，
+          同时兼容本地文件夹和 Emby/Jellyfin/Plex 媒体服务器。基于 TMDB 元数据刮削与海报墙展示，
+          为电影、剧集、动漫提供统一的媒体库管理与播放体验。
+        </p>
+ProjectGroup: BoxPlayer
+Developer:
+  id: com.github.boxplayer
+  name:
+    C: gaozhangmin
+Categories:
+- Video
+- Network
+- FileTools
+Url:
+  homepage: https://xbyvideohub.com
+Icon:
+  stock: boxplayer
+Launchable:
+  desktop-id:
+  - boxplayer.desktop
+Provides:
+  binaries:
+  - boxplayer
+Screenshots:
+- default: true
+  caption:
+    C: Main interface with poster wall
+  thumbnails: []
+  source-image:
+    url: https://github.com/gaozhangmin/boxplayer/raw/main/screenshot/%E6%88%AA%E5%B1%8F2026-04-24%2023.03.06.png
+- caption:
+    C: Video playback with subtitles
+  thumbnails: []
+  source-image:
+    url: https://github.com/gaozhangmin/boxplayer/raw/main/screenshot/%E6%88%AA%E5%B1%8F2026-04-24%2023.06.07.png
+ContentRating:
+  oars-1.1:
+    social-info: mild
+
